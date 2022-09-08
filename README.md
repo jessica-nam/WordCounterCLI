@@ -11,12 +11,13 @@ Unique word counter for a text file using Linux CLI tools
 	
 	2. tr -sc 'A-Za-z' '\012' < othello | sort | uniq -c
 	- This version has the same effect except instead of writing the results to a text file, they are printed within the terminal.
-	- example output:       452 a
-     				72 A
-      				1 Abandon
-      				2 abhor
-      				1 Abhor
-      				1 abide
-      				2 abilities
-      				1 ability
+	- example output:       
+	452 a
+	72 A
+	1 Abandon
+	2 abhor
+	1 Abhor
+	1 abide
+	2 abilities
+	1 ability
 
